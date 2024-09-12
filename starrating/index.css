@@ -1,0 +1,50 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f5f7f8;
+}
+
+.container {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  min-height: 100vh;
+}
+
+.card {
+  padding: 16px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  margin: 0 16px;
+  max-width: 30rem;
+}
+
+.star {
+  cursor: pointer;
+  font-size: 10vh;
+}
+
+.one {
+  color: red;
+}
+
+.two {
+  color: pink;
+}
+
+.three {
+  color: green;
+}
+
+.four {
+  color: violet;
+}
+
+.five {
+  color: yellow;
+}
