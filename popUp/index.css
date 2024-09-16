@@ -1,0 +1,54 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+.model-bg {
+  display: none;
+  background-color: rgba(0, 0, 0, 0.2);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.model {
+  position: absolute;
+  background-color: #fff;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  padding: 20px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  animation-name: animatemodel;
+  animation-duration: 0.5s;
+}
+
+@keyframes animatemodel {
+  from {
+    top: -200px;
+    opacity: 0;
+  }
+  to {
+    top: 50%;
+    opacity: 1;
+  }
+}
+body {
+  text-align: center;
+}
+
+button {
+  padding: 10px 20px;
+  curson: pointer;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  background-color: blue;
+}
